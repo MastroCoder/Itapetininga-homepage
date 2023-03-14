@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  font-family: "Average Sans", sans-serif;
+  background-color: #fefae0;
+  margin: 0;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-image: url("images/fishing-park-2.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.text-border {
+  padding: 5px 10px;
+  background-color: #606c38;
+  color: #fefae0;
+  text-shadow: black 0px 0px 4px;
+  border-radius: 5px;
+}
+
+.box-shadow {
+  box-shadow: black 0px 0px 4px;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-container {
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  border: 6px solid #dda15e;
+  border-radius: 50%;
+}
+
+.img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 5px 10px;
+}
+
+#img-catedral {
+  background-image: url("images/catedral.jpg");
+}
+
+#img-bolinho {
+  background-image: url("images/bolinho-de-frango.jpg");
+}
+
+#img-museu {
+  background-image: url("images/museu.jpg");
+}
+
+#guide-card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card {
+  width: 50%;
+  height: 200px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #dda15e;
+  border: 6px solid #bc6c25;
+  border-radius: 10px;
+  box-shadow: #283618 0px 0px 4px;
+}
+
+#img-felipe {
+  background-image: url("images/eu.jpg");
+  background-size: cover;
+  width: 200px;
+  border: 6px solid #283618;
+  border-radius: 50%;
+}
+
+#card-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#card-data > h3 {
+  font-size: 20pt;
+}
+
+#ul-card {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ul-card > li {
+  font-size: 14pt;
+  margin: 5px 0;
+}
